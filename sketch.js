@@ -1,6 +1,13 @@
-var input = "RGB"
+var input;
+var chooser ;
+var rgb = [];
 
 function setup() {
+
+rgb = ["RGB","RBG","GBR","GRB","BGR","BRG","RGR"];
+chooser = Math.round(random(0,rgb.length-1));
+
+input = rgb[chooser]
 
 }
 function draw(){
