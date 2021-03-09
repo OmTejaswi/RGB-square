@@ -4,7 +4,7 @@ var rgb = [];
 
 function setup() {
 
-rgb = ["RGB","RBG","GBR","GRB","BGR","BRG","RGR"];
+rgb = ["RGB","RBG","GBR","GRB","BGR","BRG","RGR","BGR","GRG","BRB","GBG","RBR","RRR","GGG","BBB"];
 chooser = Math.round(random(0,rgb.length-1));
 
 input = rgb[chooser]
