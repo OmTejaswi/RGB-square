@@ -31,6 +31,6 @@ function draw(){
         console.log("G");
     }
     if(input.charAt(0) === "B" && input.charAt(input.length-1) === "G") {
-        console.log("G");
+        console.log("R");
     }
 }
